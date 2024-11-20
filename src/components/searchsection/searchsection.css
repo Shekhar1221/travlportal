@@ -1,0 +1,356 @@
+.outerSearch{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 40px 20px 40px;
+    border-radius: 20px;
+    margin: 40px 20px;
+    /* margin: auto; */
+    /* position: absolute; */
+    /* bottom: 40px; */
+    width: 86%;
+    /* z-index: 0.1; */
+}
+
+.contoutmost{
+   display: flex;
+   justify-content: center;
+}
+.searchSection{
+    margin-bottom: 20px;
+}
+
+.searchBoxHead{
+    color: #068ab6;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.radioSection{
+    text-align: left;
+    margin-bottom: 24px;
+    padding-left: 16px;
+}
+
+.radiobutton{
+    color:#03617F ;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.originContainer{
+    text-align: left;
+    /* border: 2px solid #00c8f5; */
+    border-right: 1px solid rgb(236, 234, 234);
+    padding-left: 4px;
+    background-color: white;
+}
+
+.searchsectiondropdown{
+    color: #03617F;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.searchsectiondropdown:hover{
+    color: #03617F;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.searchdropdowndownoutlined{
+    color: #00c8f5;
+    font-weight: 700;
+}
+
+.searchsectionbottomtext{
+    margin-right: 40px;
+    color:#068fbc;
+    /* text-align: center; */
+}
+
+.originHeading  , .returnDateHead , .noOfPassengerHead{
+    color:  #0097f5;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.flyingfrominput{
+    border: none;
+    border-radius: 0px;
+    box-shadow: "none";
+    margin-bottom: 6px;
+}
+
+.flyingtoinput{
+    border: none;
+    border-radius: 0px;
+    box-shadow: "none";
+    margin-bottom: 6px;
+}
+
+.flyingfrominput:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.flyingfrominput  .ant-input::placeholder {
+    color: gray;
+    /* font-style: italic; */
+    font-size: 12px;
+    /* opacity: 0.8; */
+  }
+
+  .flyingtoinput  .ant-input::placeholder {
+    color: gray;
+    /* font-style: italic; */
+    font-size: 12px;
+    /* opacity: 0.8; */
+  }
+
+  .noOfPassengerInput  .ant-input::placeholder {
+    color: gray;
+    /* font-style: italic; */
+    font-size: 12px;
+    /* opacity: 0.8; */
+  }
+
+ 
+  .destinationContainer{
+    text-align: left;
+    /* border: 2px solid #00c8f5; */
+    border-right: 1px solid rgb(236, 234, 234);
+    padding-left: 4px;
+    background-color: white;
+  }
+
+  .destinationHeading{
+    color:  #0097f5;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  /* date picker */
+
+  .departureDateContainer{
+    text-align: left;
+    /* border: 2px solid #00c8f5; */
+    border-right: 1px solid rgb(236, 234, 234);
+    padding-left: 4px;
+    background-color: white;
+  }
+
+  .departureDateHead{
+    color:  #0097f5;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .originHeading,.destinationHeading,.noOfPassengerHead{
+    padding-left: 12px;
+  }
+
+  .returnDateHead,.departureDateHead{
+    padding-left: 8px;
+  }
+
+  .datePicker{
+    border: none;
+    border-radius: 0;
+    box-shadow: "none";
+    margin-bottom: 6px;
+    order: -1;
+  }
+
+  .datePicker  .ant-picker-input input::placeholder {
+    color: gray; /* Change placeholder color */
+    font-size: 12px;
+  }
+
+.returndateContainer{
+    text-align: left;
+    /* border: 2px solid #00c8f5; */
+    border-right: 1px solid rgb(236, 234, 234);
+    padding-left: 4px;
+    background-color: white;
+}
+
+.passengernoContainer{
+    text-align: left;
+    /* border: 2px solid #00c8f5; */
+    padding-left: 4px;
+    background-color: white;
+}
+
+.noOfPassengerInput{
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    box-shadow: "none";
+    margin-bottom: 6px;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+.searchbtnContainer{
+    height: 100%;
+}
+
+.searchbtn{
+    background-color: #00c8f5;
+    color: #fff;
+    border: none;
+    border-radius: 0px 10px 10px 0px;   
+    height: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 0px;
+    padding: 0px 10px;
+
+}
+
+.searchsectiondropdown{
+    margin-bottom: 10px;
+}
+
+.flight-passenger{
+    margin-bottom: 0px;
+}
+
+
+/* converted from scss */
+
+.flight-passenger .pax-modal {
+	position: absolute;
+	z-index: 1;
+	left: -101px;
+	background: #fff;
+	width: 280px;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper {
+	padding: 10px 20px;
+	border: 1px solid #bcd5f5;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li {
+	display: flex;
+	list-style-type: none;
+	border-bottom: 1px solid #dcdee3;
+	margin-bottom: 2px;
+	margin-top: 8px;
+	padding-bottom: 8px;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li:last-child {
+	border-bottom-color: transparent;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-label {
+	flex-grow: 1;
+	text-align: start;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-label p {
+	margin-bottom: -6px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1c2b39;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-label span {
+	font-size: 12px;
+	font-weight: 400;
+	color: #969dac;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-count {
+	flex-grow: 1;
+	align-self: baseline;
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-count .fa {
+	background: #0775e2;
+	padding: 4px;
+	color: #fff;
+	line-height: 1;
+	vertical-align: sub;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-count .fa-minus {
+	border-radius: 10px;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper li .pax-count .fa-plus {
+	border-radius: 10px;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper .pax-ready-btn {
+	border-radius: 3px;
+	background: #fff;
+	padding: 6px;
+	color: #0775e2;
+	font-size: 11px;
+	font-weight: 700;
+	border: 2px solid #0775e2;
+	margin-top: 20px;
+}
+.flight-passenger .pax-modal .pax-modal-wrapper .pax-ready-btn:hover {
+	background: #0775e2;
+	color: #fff;
+}
+
+
+.searchlocation{
+    color: #00c8f5;
+}
+
+.searchboxusericon{
+    color: #00c8f5;
+}
+
+@media screen and (max-width:768px) {
+    .searchbtn{
+        width: 100%;
+        border-radius: 0px;
+        padding: 10px 0px;
+    }
+    .outerSearch{
+        bottom: -220px;
+    }
+}
+
+@media screen and (max-width:968px) {
+    .searchbtn{
+        width: 100%;
+        border-radius: 0px;
+        padding: 10px 0px;
+    }
+    .originContainer,.destinationContainer,.departureDateContainer,.returndateContainer{
+        border-bottom: 1px solid rgb(225, 220, 220);
+    }
+}
+
+/* .ant-select .ant-select-selector{
+    border: none;
+} */
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .departureDateHead{
+        white-space: nowrap;        
+        overflow: hidden;             
+        text-overflow: ellipsis;
+        width: 6ch;
+    }
+    .returnDateHead{
+        white-space: nowrap;        
+        overflow: hidden;             
+        text-overflow: ellipsis;
+        width: 6ch;
+    }
+  }
+
+
+  @media screen and (max-width:876px){
+    .searchboxdropdownouterflex{
+        justify-content: center;
+    }
+    .searchsectionbottomtext{
+        margin-right: 0px;
+    }
+  }

@@ -1,0 +1,64 @@
+
+.footerCont{
+   padding: 0px 20px;
+   margin-bottom: 30px;
+}
+
+.footerlogoimgcont{
+    margin-bottom: 10px;
+}
+
+.footergloballogo{
+    width: 180px;
+}
+
+.anchorFooter{
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 12px;
+}
+
+.footerh5{
+    color: #03CCED;
+}
+
+.copyrightheading{
+    color:#03CCED;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.greaterthanspan{
+    color: #03CCED;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.footercolor{
+   color:rgba(0, 0, 0, 0.58); 
+}
+
+.travelfooterdesc{
+    font-size: 12px;
+}
+
+li {
+    list-style:none;
+}
+
+.footernmbr{
+    font-size: 24px;
+    color: #03CCED;
+    font-weight: 600;
+}
+
+.footeremailbtn{
+    background-color: #03CCED;
+    color: #fff;
+}
+
+.footerreview{
+    color:rgba(0, 0, 0, 0.642); 
+     font-size: 13px;
+}
+
+

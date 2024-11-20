@@ -1,0 +1,157 @@
+
+.footerCont{
+    padding: 0px 60px;
+    margin-bottom: 30px;
+ }
+ 
+ .footerlogoimgcont{
+     margin-bottom: 0px;
+     text-align: left;
+ }
+ 
+ .footergloballogo{
+     width: 180px;
+ }
+ 
+ .anchorFooter{
+     color: rgba(0, 0, 0, 0.58);
+     font-size: 12px;
+ }
+ 
+ .footerh5{
+     color: #03CCED;
+     margin-bottom: 10px;
+     font-size: 18px;
+     font-weight: 700;
+ }
+
+ .copyrightcont{
+    font-size: 12px;
+    margin-bottom: 10px;
+ }
+
+ .copyrightspanbold{
+    color: #03CCED;
+    font-weight: 700;
+ }
+ 
+ .footerboldp{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #03CCED;
+    font-weight: 600;
+ }
+
+ .footerboldpara{
+    margin-bottom: 6px;
+   
+ }
+ 
+ .greaterthanspan{
+     color: #03CCED;
+     font-size: 12px;
+     font-weight: 800;
+ }
+
+ .footerList{
+    margin-bottom: 2px;
+ }
+ 
+ .footercolor{
+    color:rgba(0, 0, 0, 0.58); 
+ }
+ 
+ .travelfooterdesc{
+     font-size: 12px;
+     margin-bottom: 14px;
+ }
+ 
+ li {
+     list-style:none;
+ }
+ 
+.footericon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03CCED;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 2px;
+    border: 2px solid #03CCED;
+    border-radius: 50%;
+}
+
+.footericonmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03CCED;
+    font-size: 8px;
+    margin-right: 10px;
+    padding: 2px;
+    border: 2px solid #03CCED;
+    border-radius: 50%;
+}
+
+.footergtltd{
+    font-size: 12px;
+    color: blue;
+    font-weight: 600;
+}
+
+ .footernmbr{
+     font-size: 24px;
+     color: #03CCED;
+     font-weight: 600;
+ }
+
+ .underlinelink{
+    text-decoration: underline;
+    color: rgb(0, 119, 255);
+ }
+
+ .subscribetext{
+    font-size: 12px;
+    margin-left: 30px;
+ }
+ 
+ .footeremailbtn{
+     background-color: #03CCED;
+     color: #fff;
+ }
+ 
+ .footerreview{
+     color:rgba(0, 0, 0, 0.642); 
+     font-size: 13px;
+     line-height: 1.5;
+ }
+
+ /* .customsearch .ant-input {
+    background-color: red !important; 
+  } */
+ 
+/* .ant-input-affix-wrapper::before{
+    background-color: red;
+} */
+
+ .mb10{
+   margin-bottom: 10px;
+ }
+ 
+
+ .mb8{
+    margin-bottom: 8px;
+  }
+
+  .mb5{
+    margin-bottom: 5px;
+  }
+
+  .mb14{
+    margin-bottom: 12px;
+  }
+
+  /* .fsi{
+    font-size: 16px;
+  } */

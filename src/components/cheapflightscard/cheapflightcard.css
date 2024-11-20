@@ -1,0 +1,48 @@
+
+@media screen and (max-width:516px) {
+   .cheapflightcard{
+       width: 100%;
+   }
+}
+
+.cheapFlightCrdMidHead1{
+   color: blue;
+   font-size: 12px;
+   font-weight: 600;
+}
+
+.cheapFlightCrdMidHead2{
+   color: rgb(0, 157, 255);
+   font-size: 12px;
+}
+
+.cheapflightcardheadflex{
+   width: 100%;
+}
+
+.cheapfightcrdmidsec{
+   font-size: 12px;
+   color: rgb(153, 148, 148);
+}
+
+
+.cheapfightcrdlowersec{
+   font-size: 12px;
+   color: rgb(153, 148, 148);
+   text-align: left;
+}
+
+.cheapflightcardrightsectop{
+   font-size: 10px;
+}
+
+
+.cheapflightcardrightsecmid{
+   font-size: 14px;
+   font-weight: 600;
+}
+
+
+.cheapflightcardrightseclower{
+   font-size: 12px;
+}

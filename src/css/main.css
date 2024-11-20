@@ -1,0 +1,237 @@
+body{
+    font-size: 14px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+.color1{
+    color: #03617F;
+}
+
+.fs10{
+    font-size: 10px;
+}
+
+.fs12{
+    font-size: 12px;
+}
+
+.fs14{
+    font-size: 14px;
+}
+
+.fs16{
+    font-size: 16px;
+}
+
+.fs18{
+    font-size: 18px;
+}
+
+.color2{
+    color:#13a3b7;
+}
+
+.color3{
+    color: #00c8f5;
+}
+
+.fw1{
+    font-weight: 500;
+}
+
+.fw2{
+    font-weight: 600;
+}
+
+.fw3{
+    font-weight: 700;
+}
+
+.fw4{
+    font-weight: 800;
+}
+
+.p5{
+    padding: 5px;
+}
+
+.p8{
+    padding: 8px;
+}
+
+.p10{
+    padding: 10px;
+}
+
+.p12{
+    padding: 12px;
+}
+
+.pt5{
+    padding-top: 5px;
+}
+
+.pt8{
+    padding-top: 8px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+.pt12{
+    padding-top: 12px;
+}
+
+
+.pb5{
+    padding-bottom: 5px;
+}
+
+.pb8{
+    padding-bottom: 8px;
+}
+
+.pb10{
+    padding-bottom: 10px;
+}
+
+.pb12{
+    padding-bottom: 12px;
+}
+
+.pl5{
+    padding-left: 5px;
+}
+
+.pl8{
+    padding-left: 8px;
+}
+
+.pl10{
+    padding-left: 10px;
+}
+
+.pl12{
+    padding-left: 12px;
+}
+
+.pr5{
+    padding-right: 5px;
+}
+
+.pr8{
+    padding-right: 8px;
+}
+
+.pr10{
+    padding-right: 10px;
+}
+
+.pr12{
+    padding-right: 12px;
+}
+
+
+.m5{
+    margin: 5px;
+}
+
+.m8{
+    margin: 8px;
+}
+
+.m10{
+    margin: 10px;
+}
+
+.m12{
+    margin: 12px;
+}
+
+
+.mt5{
+    margin-top: 5px;
+}
+
+.mt8{
+    margin-top: 8px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt12{
+    margin-top: 12px;
+}
+
+.mb5{
+    margin-bottom: 5px;
+}
+
+.mb8{
+    margin-bottom: 8px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.mb12{
+    margin-bottom: 12px;
+}
+
+.ml5{
+    margin-left: 5px;
+}
+
+.ml8{
+    margin-left: 8px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.ml12{
+    margin-left: 12px;
+}
+
+.mr5{
+    margin-right: 5px;
+}
+
+.mr8{
+    margin-right: 8px;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+
+.mr12{
+    margin-right: 12px;
+}
+
+.textAlignLeft{
+    text-align: left;
+}

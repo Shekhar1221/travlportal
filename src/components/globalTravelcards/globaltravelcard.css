@@ -1,0 +1,75 @@
+.cardChangeTravel{
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    border-top: 3px solid rgba(249, 245, 245, 0.557);
+    box-shadow: 1px 1px 2px 1px rgb(230, 226, 226)  ;
+}
+
+.traveltitle{
+   color: #03CCED;
+   font-size: 24px;
+   font-weight: 600;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+}
+
+
+.travelsubtitle{
+    color: #03617F;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.imgTravel{
+    color:  #00c8f5;
+}
+
+
+.travelCadBody{
+  position: relative;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.travellogo{
+    position: absolute;
+    color: #00c8f5;
+    /* background-color:  #ffffff; */
+    background-color: #f8f8f8;
+    /* width: 150px; */
+    width: 100%;
+    text-align: center;
+    /* height: 150px; */
+    padding: 15px;
+    border-radius: 50%;
+    top:-70px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* opacity: 0.15; */
+    /* box-shadow: 6px 10px 9px 0px rgba(235,225,225,0.75);
+    -webkit-box-shadow: 6px 10px 9px 0px rgba(235,225,225,0.75);
+    -moz-box-shadow: 6px 10px 9px 0px rgba(235,225,225,0.75); */
+    /* z-index: 0; */
+}
+
+.travelPlaneIcon{
+    /* position: absolute; */
+    color: #00c8f5;
+    /* top: -50px;
+    left: 120px; */
+    font-size: 52px;
+}
+
+.whyglobalcarddesc{
+    font-size: 12px;
+    color: rgb(83, 81, 81);
+    margin-top:0px ;
+}
+
+@media screen and (max-width:700px) {
+    .travellogo{
+        left:38%
+    }
+}
